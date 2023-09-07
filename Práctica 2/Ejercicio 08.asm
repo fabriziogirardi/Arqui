@@ -1,5 +1,5 @@
         org 1000h
-msj_1   db "Ingrese numeros a resta"
+msj_1   db "Ingrese numeros a restar"
 msj_1_f db ?
 msj_2   db "Primer numero: "
 msj_2_f db ?
