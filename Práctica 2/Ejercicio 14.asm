@@ -64,8 +64,10 @@ call_key:     xor     frenar, 1
               
 ; Rutina de fin de interrupción
               org 2700h
-fin_interr:   mov     al, pic
+fin_interr:   push    ax
+              mov     al, pic
               out     pic, al
+              pop     ax
               ret
 
 end
