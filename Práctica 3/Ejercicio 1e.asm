@@ -35,6 +35,7 @@ exe_clk:      push    ax
               push    dx
               call    direccion
               call    desp_bits
+              call    reiniciar_clk
               call    activar_luces
               call    reiniciar_clk
               call    fin_interr
